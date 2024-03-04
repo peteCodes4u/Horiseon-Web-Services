@@ -1,32 +1,36 @@
+/* Setting all elements to boarder-box sizing and CSS Reset to appear the same in all browsers */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets bacground color for the web page */
 body {
     background-color: #d9dcd6;
 }
 
-/* To do - update section 1 */
-
-.header {
+/* Sets the header style */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* Sets the positioning of the h1 elements in the header */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Sets color for SEO in Horiseon title */
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Sets the style for the navigation menu */
+nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,15 +38,18 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Sets the style for unorderd list items (SEO, ORM, SSM) of the navigation menu */
+ul{
     list-style-type: none;
 }
 
-.header div ul li {
+/* Sets the style for list topics SEO, ORM, SSM of the navigation menu */
+li{
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets font colors for the navigation menu items */
 a {
     color: #ffffff;
     text-decoration: none;
