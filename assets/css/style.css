@@ -107,17 +107,6 @@ h3{
     margin-left: 25px;
 }
 
-/* Establishes "skip blocks" to main landmarks main articles*/
-
-.skip {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-  }
-
 /*Sets positioning for main articles */
 
 main{
