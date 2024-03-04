@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* To do - update section 1 */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,6 +48,8 @@ a {
     text-decoration: none;
 }
 
+/* To do update section - 2 */
+
 p {
     font-size: 16px;
 }
@@ -74,6 +78,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* To Do Update Section - 3/4 */
 
 .benefits {
     margin-right: 20px;
