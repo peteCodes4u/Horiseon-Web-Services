@@ -1,4 +1,5 @@
 /* Setting all elements to boarder-box sizing and CSS Reset to appear the same in all browsers */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,11 +7,13 @@
 }
 
 /* Sets bacground color for the web page */
+
 body {
     background-color: #d9dcd6;
 }
 
 /* Sets the header style */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,6 +22,7 @@ header {
 }
 
 /* Sets the positioning of the h1 elements in the header */
+
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -30,6 +34,7 @@ h1 {
 }
 
 /* Sets the style for the navigation menu */
+
 nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -39,37 +44,45 @@ nav{
 }
 
 /* Sets the style for unorderd list items (SEO, ORM, SSM) of the navigation menu */
+
 ul{
     list-style-type: none;
 }
 
 /* Sets the style for list topics SEO, ORM, SSM of the navigation menu */
+
 li{
     display: inline-block;
     margin-left: 25px;
 }
 
 /* Sets font colors for the navigation menu items */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 /* Sets font size for all paragraph text for main articles and aside sections */
+
 p {
     font-size: 16px;
 }
 
 /* Sets positioning for h2 elements of the main articles  */
+
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 /* Sets positioning for h3 elements of the aside sections  */
+
 h3{
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* Sets the style for the aestetic section below the header and navigation menu */
 .hero {
     height: 800px;
@@ -80,18 +93,22 @@ h3{
     background-position: center;
 }
 
-/* Sets the positioning for images in the main articles (#seoLink, #smmLink)  */
+/* Sets the positioning for images(1,3) in the main articles  */
+
 .float-left{
     float: left;
     margin-right: 25px;
 }
 
-/* Sets the positioning for images in the main articles (#ormLink)  */
+/* Sets the positioning for images(2) in the main articles  */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/* Establishes "skip blocks" to main landmarks main articles () */
+
+/* Establishes "skip blocks" to main landmarks main articles*/
+
 .skip {
     position: absolute;
     left: -10000px;
@@ -101,12 +118,16 @@ h3{
     overflow: hidden;
   }
 
+/*Sets positioning for main articles */
+
 main{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 
 }
+
+/*Sets positioning for main articles content  */
 
 article{
     margin-bottom: 20px;
@@ -118,13 +139,15 @@ article{
     
 }
 
+/*Sets size for main articles images  */
+
 article img{
     max-height: 200px;
 }
 
-/* To Do Update Section - 3/4 */
+/* Sets positioning for aside content */
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -132,118 +155,39 @@ article img{
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #1d658c;
 }
 
-.benefit-lead {
+/* Sets positioning for aside section content */
+
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/*Sets positioning for aside section images (1-3) */
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Sets position and style for footer section */
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #000000;
+    
 }
 
-.footer h2 {
+/* Sets size and color for footer section text */
+
+footer h2{
     font-size: 20px;
+    color: #000000;
+
 }
