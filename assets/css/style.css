@@ -23,19 +23,19 @@ header {
 
 /* Sets the positioning of the h1 elements in the header */
 
-h1 {
+#main-heading {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Sets color for SEO in Horiseon title */
-.seo {
+#main-heading .seo {
     color: #d9dcd6;
 }
 
 /* Sets the style for the navigation menu */
 
-nav{
+#navigation-menu{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,20 +45,20 @@ nav{
 
 /* Sets the style for unorderd list items (SEO, ORM, SSM) of the navigation menu */
 
-ul{
+.navigation-links{
     list-style-type: none;
 }
 
 /* Sets the style for list topics SEO, ORM, SSM of the navigation menu */
 
-li{
+.navigation-links li{
     display: inline-block;
     margin-left: 25px;
 }
 
 /* Sets font colors for the navigation menu items */
 
-a {
+.navigation-links li a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -84,7 +84,7 @@ h3{
 }
 
 /* Sets the style for the aestetic section below the header and navigation menu */
-.hero {
+.banner-1 {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -109,7 +109,7 @@ h3{
 
 /*Sets positioning for main articles */
 
-main{
+#main-article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
