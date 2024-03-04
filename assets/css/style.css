@@ -55,35 +55,71 @@ a {
     text-decoration: none;
 }
 
-/* To do update section - 2 */
-
+/* Sets font size for all paragraph text for main articles and aside sections */
 p {
     font-size: 16px;
 }
 
+/* Sets positioning for h2 elements of the main articles  */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Sets positioning for h3 elements of the aside sections  */
+h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Sets the style for the aestetic section below the header and navigation menu */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
+/* Sets the positioning for images in the main articles (#seoLink, #smmLink)  */
+.float-left{
     float: left;
     margin-right: 25px;
 }
 
+/* Sets the positioning for images in the main articles (#ormLink)  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+/* Establishes "skip blocks" to main landmarks main articles () */
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
 
-.content {
+main{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+
+}
+
+article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    
+}
+
+article img{
+    max-height: 200px;
 }
 
 /* To Do Update Section - 3/4 */
