@@ -63,27 +63,8 @@ header {
     text-decoration: none;
 }
 
-/* Sets font size for all paragraph text for main articles and aside sections */
-
-p {
-    font-size: 16px;
-}
-
-/* Sets positioning for h2 elements of the main articles  */
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Sets positioning for h3 elements of the aside sections  */
-
-h3{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 /* Sets the style for the aestetic section below the header and navigation menu */
+
 .banner-1 {
     height: 800px;
     width: 100%;
@@ -93,16 +74,36 @@ h3{
     background-position: center;
 }
 
+/* Sets font size for all paragraph text for main articles and aside sections */
+
+#main-article article p {
+    font-size: 16px;
+}
+
+/* Sets positioning for h2 elements of the main articles  */
+
+#main-article article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets positioning for h3 elements of the aside sections  */
+
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 /* Sets the positioning for images(1,3) in the main articles  */
 
-.float-left{
+#main-article .float-left{
     float: left;
     margin-right: 25px;
 }
 
 /* Sets the positioning for images(2) in the main articles  */
 
-.float-right {
+#main-article .float-right {
     float: right;
     margin-left: 25px;
 }
@@ -118,7 +119,7 @@ h3{
 
 /*Sets positioning for main articles content  */
 
-article{
+#main-article article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
