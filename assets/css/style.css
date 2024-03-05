@@ -23,19 +23,19 @@ header {
 
 /* Sets the positioning of the h1 elements in the header */
 
-h1 {
+#main-heading {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Sets color for SEO in Horiseon title */
-.seo {
+#main-heading .seo {
     color: #d9dcd6;
 }
 
 /* Sets the style for the navigation menu */
 
-nav{
+#navigation-menu{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,46 +45,27 @@ nav{
 
 /* Sets the style for unorderd list items (SEO, ORM, SSM) of the navigation menu */
 
-ul{
+.navigation-links{
     list-style-type: none;
 }
 
 /* Sets the style for list topics SEO, ORM, SSM of the navigation menu */
 
-li{
+.navigation-links li{
     display: inline-block;
     margin-left: 25px;
 }
 
 /* Sets font colors for the navigation menu items */
 
-a {
+.navigation-links li a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Sets font size for all paragraph text for main articles and aside sections */
-
-p {
-    font-size: 16px;
-}
-
-/* Sets positioning for h2 elements of the main articles  */
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Sets positioning for h3 elements of the aside sections  */
-
-h3{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 /* Sets the style for the aestetic section below the header and navigation menu */
-.hero {
+
+.banner-1 {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -93,23 +74,43 @@ h3{
     background-position: center;
 }
 
+/* Sets font size for all paragraph text for main articles and aside sections */
+
+#main-article article p {
+    font-size: 16px;
+}
+
+/* Sets positioning for h2 elements of the main articles  */
+
+#main-article article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets positioning for h3 elements of the aside sections  */
+
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 /* Sets the positioning for images(1,3) in the main articles  */
 
-.float-left{
+#main-article .float-left{
     float: left;
     margin-right: 25px;
 }
 
 /* Sets the positioning for images(2) in the main articles  */
 
-.float-right {
+#main-article .float-right {
     float: right;
     margin-left: 25px;
 }
 
 /*Sets positioning for main articles */
 
-main{
+#main-article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -118,7 +119,7 @@ main{
 
 /*Sets positioning for main articles content  */
 
-article{
+#main-article article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
