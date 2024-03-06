@@ -15,7 +15,10 @@ Navigate to https://petecodes4u.github.io/Horiseon-Web-Services and allow the we
 The Navigation menu in the header of the webpage will redirect the user to the appropriate article section respective to the menu item selected.
    
 [alt text](assets/images/Horiseon-Web-Services-Screenshot.png)
+
+## Link to website
     
+https://github.com/peteCodes4u/Horiseon-Web-Services
 
 ## Credits
 
